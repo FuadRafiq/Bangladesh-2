@@ -366,3 +366,58 @@ nav button:hover{
     justify-content: center;
     gap: 23px;
 }
+
+/* donate styles */
+
+.donate{
+    padding: 0px 160px  80px 160px;
+    text-align: center;
+}
+
+.donate  p{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.donate-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+.card-taka100, .card-taka200, .card-taka500, .card-taka1000{
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: auto;
+    color: rgba(14, 14, 14, 0.8);
+    cursor: pointer;
+}
+.card-taka200 { 
+    background-color: #C6E4D6;
+} 
+.donate input{
+    padding: 20px 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin: 32px auto;
+    width: 70%;
+    text-align: centers;
+}
+.donate button{
+    padding: 17px 34px;
+    border-radius: 8px;
+    background-color: #006A50;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: auto;
+    cursor: pointer;
+}
+
+.donate button:hover{
+    background-color: grey;
+}
+
+/* subscribe styles */
