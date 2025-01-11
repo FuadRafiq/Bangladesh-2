@@ -384,9 +384,10 @@ nav button:hover{
     justify-content: space-evenly;
     gap: 24px;
 }
-.card-taka100, .card-taka200, .card-taka500, .card-taka1000{
+.card-taka{
     padding: 40px;
     border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
     background-color: #FFFFFF;
     font-size: 40px;
     font-weight: bold;
@@ -394,16 +395,26 @@ nav button:hover{
     color: rgba(14, 14, 14, 0.8);
     cursor: pointer;
 }
-.card-taka200 { 
+
+.card-taka:hover{
     background-color: #C6E4D6;
-} 
+}
+
 .donate input{
     padding: 20px 40px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    border: none;
     margin: 32px auto;
     width: 70%;
-    text-align: centers;
+    text-align: center;
 }
+
+.donate input::placeholder{
+    color:rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: regular;
+    line-height: auto;
+}
+
 .donate button{
     padding: 17px 34px;
     border-radius: 8px;
