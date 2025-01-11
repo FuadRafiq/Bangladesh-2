@@ -30,8 +30,13 @@
     font-size: 16px;
     font-weight: regular;
     line-height: 24px;
-    color:rgba(14, 14, 14, 0.7);
-   
+    color:rgba(14, 14, 14, 0.7); 
+}
+
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: auto;
 }
 
 /* nav styles */
@@ -117,11 +122,7 @@ nav a{
     margin-bottom: 32px;
 }
 
-.section-title{
-    font-size: 40px;
-    font-weight: bold;
-    line-height: auto;
-}
+
 .pillars-container{
     display: flex;
     justify-content: space-around;
@@ -262,4 +263,27 @@ nav a{
     color:rgba(14, 14, 14, 0.6);
 }
 
-/* vision styles */
+/* news styles */
+.news{
+    padding: 80px 160px;
+}
+
+.news-section p{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.news-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.news-card1, .news-card2{
+    padding: 48px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
