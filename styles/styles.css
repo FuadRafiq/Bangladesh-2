@@ -472,3 +472,66 @@ nav button:hover{
     width: 50%;
     border-radius: 8px 0px 0px 8px;
 }
+
+/* opinion section styles */
+.opinion{
+    padding: 80px 160px 0px 160px;
+}
+
+.opinion h2{
+    margin-bottom: 24px;
+}
+
+.opinion-container{
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+.opinion-container table{
+    border-collapse: collapse;
+    
+}
+
+.opinion-container th{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    padding: 24px;
+}
+
+.opinion-container th{
+    background-color: #C6E4D6;
+    font-size: 20px;
+    font-weight: semi-bold;
+    line-height: auto;
+    color: #0E0E0E;
+    }
+
+.opinion-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.opinion-container td{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    font-size: 16px;
+    font-weight: semi-bold;
+    line-height: auto;
+    color: #0E0E0E;
+    padding: 24px; 
+    width: 100%;
+}
+
+.opinion-container select{
+    padding: 10px 14px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 1);
+    background-color: #C6E4D6;
+    
+} 
+
+
+
+
+
+
